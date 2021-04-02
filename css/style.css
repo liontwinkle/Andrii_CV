@@ -1010,6 +1010,7 @@ section.home.light .social-icons li a:hover {
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  height: 100%;
 }
 .service-box h3 {
   font-size: 20px;
