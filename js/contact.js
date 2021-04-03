@@ -1,11 +1,6 @@
 $(function () {
 
     "use strict";
-
-    // init the validator
-    // validator files are included in the download package
-    // otherwise download from http://1000hz.github.io/bootstrap-validator
-
     $('#contact-form').validator();
 
 
@@ -21,6 +16,7 @@ $(function () {
              console.log(message);
              Email.send({
                 Host: "smtp.elasticemail.com",
+                Port: "25",
                 Username: "andrysoul32@gmail.com",
                 Password: "5DD0BDDE06710E36638FC46CBF7EFA75A3BC",
                 To: 'andrysoul32@gmail.com',
